@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+}
+.hoverbutton {
+    
+    height: 2rem;
+    width: 3rem;
+    box-shadow: none;
+    background-color: lightgreen;
+    transition: width 2s, height 3s, background-color 2s, box-shadow 3s;
+    transition-timing-function: linear;
+}
+.hoverbutton:hover {
+    height: 4rem;
+    width: 5rem;
+    background-color: aqua;
+    box-shadow: 5px;
+
+}

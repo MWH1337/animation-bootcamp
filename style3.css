@@ -1,0 +1,43 @@
+.container {
+    background-color: lightgray;
+    height: 500px;
+    width: 500px;
+    padding:auto;
+
+}
+.container .cube {
+    height:40px;
+    width:40px;
+    position: left: 0, right: 0;
+    background-color: red;
+    animation: turn-at-corner 8s;
+
+
+
+}
+
+@keyframes turn-at-corner {
+    0% {
+        transform: translate(0,0);
+        background-color: red;
+    }
+    25% {
+        transform: translate(0,460px);
+        background-color: green;
+    }
+    50% {
+        transform: translate(460px,460px);
+        background-color: blue;
+    }
+    75% {
+        transform: translate(460px,0);
+        background-color: yellow;
+
+    }
+    100% {
+        transform: translate(0,0);
+        background-color: red;
+    }
+
+}
+
